@@ -3,6 +3,7 @@ import Links from "./links/Links";
 import Music from "./Music";
 import 'react-h5-audio-player/lib/styles.css';
 import '../App.css'
+import CSSEffect from './CSSEffect'
 //fonts
 // import "./fonts/StanderdfreeRegular-X3KK2.otf"
 import { FaSnowboarding } from "react-icons/fa";
@@ -32,7 +33,10 @@ const MainPage = (props) => {
                     <div className="">
                         <div className="fadeInPage">
                             <div className="ryanFleet">
-                                <h1 className="">Ryan Fleet</h1>
+                                {/* <h1 className="">Ryan Fleet</h1> */}
+                                <div>
+                                    <CSSEffect />
+                                </div>
                                 <h3>Full Stack Web Developer</h3>
                                 <div className="icons d-flex justify-content-around">
                                     <FaSnowboarding className="snowboarder" />

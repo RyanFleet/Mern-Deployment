@@ -8,6 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 import Button from 'react-bootstrap/Button';
 import Overlay from 'react-bootstrap/Overlay';
+import CSSEffect from "./CSSEffect";
 
 
 const Contact = (props) => {
@@ -19,6 +20,7 @@ const Contact = (props) => {
                 <div className="contactPage">
                     <h1 className="display-1">Contact Info</h1>
                     <div className="d-flex">
+                        {/* Email Button */}
                         <Button className="" variant="dark" ref={target} onClick={() => setShow(!show)}>
                                 <AiOutlineMail /> Email
                             </Button>
