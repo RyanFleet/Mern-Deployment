@@ -6,7 +6,7 @@ const CSSEffect = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 ">
-                        <h3 className="animate-charcter"> Ryan Fleet</h3>
+                        <h3 className="animate-character"> Ryan Fleet</h3>
                     </div>
                 </div>
             </div>
