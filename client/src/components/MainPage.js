@@ -108,16 +108,16 @@ const MainPage = (props) => {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <img className="homeImgs card card-img" src={require('./photos/IMG_2518.jpg')} alt="MeAndGf" />
+                                    <img className="homeImgs card card-img" src={require('./photos/FullSizeRender.JPG')} alt="MeAndGf" />
                                 </div>
                             </div>
-                            <div className="thirdPic row row-cols-1 row-cols-md-2 g-5">
+                            {/* <div className="thirdPic row row-cols-1 row-cols-md-2 g-5">
                                 <div className="col">
                                     <img className="homeImgs card card-img" src={require('./photos/FullSizeRender (1).jpg')} alt="Me" />
                                 </div>
                                 <div className="col">
                                 </div>
-                            </div>
+                            </div> */}
                                     <div className="scrollToTop">
                                         <button className="arrowA text-dark"
                                             onClick={handScrollToTop}>
